@@ -1,7 +1,8 @@
 import 'tailwindcss/tailwind.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  const hola = 'hola';
+  return <Component {...pageProps} /
 }
 
 export default MyApp;
